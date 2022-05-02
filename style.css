@@ -1,0 +1,347 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INCEPUT COD */
+body{
+	
+	font: 15px/1.5 Aial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+
+}
+/*GLOBAL*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*HEADER*/
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 5px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+
+
+}
+
+header #branding h1{
+	margin: 0;
+	font-size: 40px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+/*COMENTARII*/
+
+#showcase{
+	min-height: 400px;
+	background: url("./imagini/audi.jpeg") no-repeat 0 -230px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-shadow: 0px 0px 10px #000000;
+
+}
+
+#showcase p{
+	text-shadow: 0px 0px 10px #000000;
+}
+
+
+#main1{
+	background: url("./imagini/audi.jpeg") no-repeat 0 -200px;
+	min-height: 500px;
+}
+
+.dark1{
+	background-color: #35424a;
+	padding: 15px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+/*NEWSLETTER*/
+
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	border-bottom: #e8491d 5px solid;
+	border-top: #e8491d 5px solid;
+}
+
+#newsletter h1{
+	float: left;
+	padding: 4px;
+	margin-top: 15px;
+	font-weight: bold;
+
+}
+
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height:25px;
+	width: 250px;
+}
+
+/*CUTII*/
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+/*SIDEBAR*/
+
+aside#sidebar{
+	float: right;
+	width: 300px;
+	margin-top: 10px;
+}
+
+.text-aside{
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.page-title{
+	font-size: 25px;
+	font-weight: bold;
+	color:#000000;
+}
+
+/*main-col*/
+
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+#main-col p{
+	text-align: left;
+}
+
+.page-title{
+	text-align: center;
+}
+/*FOOTER*/
+
+footer{
+	padding:20px;
+	margin-top: 0px;
+	color: #ffffff;
+	background: #e8491d;
+	text-align: center;
+
+}
+/*VIDEO*/
+
+.video{
+	width:300px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+/* PARALLAX  */
+
+.img1{
+	background-image: url("./imagini/diesel1.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img2{
+	background-image: url("./imagini/benz.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.img3{
+	background-image: url("./imagini/wank.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sectiunea1{
+	color: #ffffff;
+}
+
+.page-title{
+	font-size: 40px;
+	font-family: "Lato";
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.bara-despartire{
+	height: 90px;
+	background-color: #35424a;
+	width: 100%;
+	border-bottom: #e8491d 5px solid;
+	border-top: #e8491d 5px solid;
+}
+
+/* PAGINA DE INFCon*/
+
+header #titlu h1{
+	font-size: 40px;
+	padding: 0;
+	margin-bottom: 15px;
+
+}
+.titlu{
+	margin:0;
+	padding:0;
+	margin-bottom: 10px;
+	margin-left: 130px;
+}
+
+.container{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Luna;
+
+}
+
+
